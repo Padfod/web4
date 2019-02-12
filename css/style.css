@@ -1,16 +1,47 @@
-html,body,header, #intro{
+html,
+body,
+header,
+#intro {
     height: 100%;
 }
-#intro{
+
+#progect {
+    height: 50%;
+}
+
+#intro {
     background: url(../img/img2.jpg) no-repeat center center fixed;
     background-size: cover;
-    
+
 }
-.top-nav-collapse{
+
+#progect {
+    background: url(../img/img3.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.top-nav-collapse {
     background-color: #140a08;
 }
+
 @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse){
+    .navbar:not(.top-nav-collapse) {
         background: #140a08;
     }
+}
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
